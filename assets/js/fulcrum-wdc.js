@@ -52,7 +52,7 @@
 
       $.ajax({
         type: "POST",
-        url: "https://api.fulcrumapp.com/api/v2/query",
+        url: "https://api.fulcrumapp-au.com/api/v2/query",
         contentType: "application/json",
         data: JSON.stringify({
           "q": connector.sql,
@@ -95,7 +95,7 @@
 
       $.ajax({
         type: "GET",
-        url: "https://web.fulcrumapp.com/shares/" + connector.share + ".geojson",
+        url: "https://web.fulcrumapp-au.com/shares/" + connector.share + ".geojson",
         contentType: "application/json",
         success: function (data) {
 
